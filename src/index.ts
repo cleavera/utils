@@ -1,3 +1,6 @@
+export { IDict } from './interfaces/dict.interface';
+export { IKey } from './interfaces/key.interface';
+export { IValue } from './interfaces/value.interface';
 export { $isBoolean } from './helpers/is-boolean.helper';
 export { $isDate } from './helpers/is-date.helper';
 export { $isNull } from './helpers/is-null.helper';

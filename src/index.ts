@@ -1,3 +1,4 @@
+export { UniqueArray } from './classes/unique-array';
 export { IDict } from './interfaces/dict.interface';
 export { IKey } from './interfaces/key.interface';
 export { IValue } from './interfaces/value.interface';

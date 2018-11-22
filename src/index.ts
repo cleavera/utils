@@ -1,3 +1,5 @@
+export { $prettifyString } from './helpers/prettify-string.helper';
+export { $stringReplace } from './helpers/string-replace.helper';
 export { UniqueArray } from './classes/unique-array';
 export { IDict } from './interfaces/dict.interface';
 export { IKey } from './interfaces/key.interface';

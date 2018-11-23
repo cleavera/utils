@@ -1,3 +1,4 @@
+export { MetaData } from './classes/meta-data';
 export { $prettifyString } from './helpers/prettify-string.helper';
 export { $stringReplace } from './helpers/string-replace.helper';
 export { UniqueArray } from './classes/unique-array';

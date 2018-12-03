@@ -1,3 +1,4 @@
+export { $escapeHTML } from './helpers/escape-html.helper';
 export { MetaData } from './classes/meta-data';
 export { $prettifyString } from './helpers/prettify-string.helper';
 export { $stringReplace } from './helpers/string-replace.helper';

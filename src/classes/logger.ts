@@ -15,6 +15,9 @@ export class Logger {
         const logger: ILogger = {
             write(value: string): void {
                 console.log(value); // tslint:disable-line no-console
+            },
+            error(error: Error): void {
+                console.error(error); // tslint:disable-line no-console
             }
         };
 
@@ -32,6 +35,12 @@ export class Logger {
 
         args.forEach((arg: any): void => { // tslint:disable-line no-any
             let content: string;
+
+            if (arg instanceof Error) {
+                this._logger.error(arg);
+
+                return;
+            }
 
             if (arg.toString) {
                 content = arg.toString();

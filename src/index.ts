@@ -1,3 +1,4 @@
+export { $snakeCaseString } from './helpers/snake-case-string.helper';
 export { $camelCaseString } from './helpers/camel-case-string.helper';
 export { ILogger } from './interfaces/logger.interface';
 export { Logger } from './classes/logger';

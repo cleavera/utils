@@ -3,7 +3,7 @@ export function $camelCaseString(input: string): string {
         .replace(/^[A-Z]/, (char: string) => {
             return char.toLowerCase();
         })
-        .replace(/([A-z]) ([A-z])/, (_match: string, m1: string, m2: string) => {
+        .replace(/([A-z]) ([A-z])/g, (_match: string, m1: string, m2: string) => {
             return `${m1}${m2.toUpperCase()}`;
         });
 }

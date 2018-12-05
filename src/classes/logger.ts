@@ -48,7 +48,7 @@ export class Logger {
                 content = JSON.stringify(arg);
             }
 
-            this._logger.write(`\n[${LogLevel[level]}] ${content}`);
+            this._logger.write(`[${LogLevel[level]}] ${content}`);
         });
     }
 

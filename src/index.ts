@@ -1,3 +1,4 @@
+export { LogLevel } from './constants/log-level.constant';
 export { Asyncable } from './interfaces/asyncable.interface';
 export { OneOrMany } from './interfaces/one-or-many.interface';
 export { $snakeCaseString } from './helpers/snake-case-string.helper';

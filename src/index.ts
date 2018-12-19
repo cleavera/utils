@@ -1,3 +1,4 @@
+export { IJsonValue } from './interfaces/json-value.interface';
 export { LogLevel } from './constants/log-level.constant';
 export { Asyncable } from './interfaces/asyncable.interface';
 export { OneOrMany } from './interfaces/one-or-many.interface';

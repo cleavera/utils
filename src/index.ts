@@ -1,3 +1,4 @@
+export { ISerializable } from './interfaces/serializable.interface';
 export { IJsonValue } from './interfaces/json-value.interface';
 export { LogLevel } from './constants/log-level.constant';
 export { Asyncable } from './interfaces/asyncable.interface';

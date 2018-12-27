@@ -1,3 +1,4 @@
+export { IPosition } from './interfaces/position.interface';
 export { ISerializable } from './interfaces/serializable.interface';
 export { IJsonValue } from './interfaces/json-value.interface';
 export { LogLevel } from './constants/log-level.constant';

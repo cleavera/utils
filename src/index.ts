@@ -1,3 +1,4 @@
+export { $isEmpty } from './helpers/is-empty.helper';
 export { $nLengthArrayCombinations } from './helpers/n-length-array-combinations.helper';
 export { IPosition } from './interfaces/position.interface';
 export { ISerializable } from './interfaces/serializable.interface';
